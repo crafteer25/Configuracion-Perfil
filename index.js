@@ -47,19 +47,7 @@ function validarnumeros(evento) {//Aquí se valida que el usuario este ingresand
         return true;
     }
 }
-function validarlimitecredito(evento) {//Se valida que en el limite de credito se admitan unicamente numeros y
-    //punto decimal
-    var letras = ".1234567890";
-    var valor = evento.which || evento.keyCode;
-    var txt = String.fromCharCode(valor);
-    var pos = letras.indexOf(txt);
-    if (pos === -1) {
-        alert("Ingresa solo numeros décimales");
-        return false;
-    } else {
-        return true;
-    }
-}
+
 const iconEye = document.querySelector(".icono1");
 console.log(iconEye);
 iconEye.addEventListener("click", function(){
