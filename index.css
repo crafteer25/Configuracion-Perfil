@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(28, 28, 28, 1);
+}
+
+.perfil_p {
+  width: 23vw;
+  height: 100vh;
+  padding: 15px;
+  margin-right: auto;
+  position: fixed;
+  top: -8vh;
+  
+}
+
+.ImagenPerfil {
+  width: 15vw;
+  height: 15vw;
+  margin-bottom: 20%;
+  left:50%;
+  opacity: 1;
+  border-radius: 50%;
+  background: url('assets/images/Prueba.png');
+  background-size: 100% 100%;
+  overflow:hidden;
+  border: 5px solid grey;
+
+}
+
+.my_file {
+  top: 70%;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  outline: none;
+  color: transparent;
+  box-sizing: border-box;
+  left: 2%;
+  cursor: pointer;
+  transition: 0.5s;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  padding: 2vh 12vh;
+  text-align: center;
+  border-radius: 50% / 0 0 100% 100%;
+}
+
+.my_file::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.my_file::before {
+  content: "\f030";
+  background-size: 15px 15px;
+  font-family: "FontAwesome";
+  font-size: 40px;
+  color: #ffff;
+  display: inline-block;
+  -webkit-user-select: none;
+}
+
+.my_file::after {
+  content: 'Actualizar';
+  font-family: 'arial';
+  position: absolute;
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  top: 75%;
+  width: 50%;
+  font-size: 1vh;
+  
+}
+
+.my_file:hover {
+  opacity: 1;
+}
+
+.Username {
+  color: rgba(255, 255, 255, 1);
+  font-family: Sora;
+  font-weight: Regular;
+  font-size: 5vh;
+  opacity: 1;
+  margin-bottom: 3vh;
+  text-align: center;
+
+}
+
+.Username1 {
+  color: rgba(255, 255, 255, 1);
+  font-family: Sora;
+  font-weight: Regular;
+  font-size: 3vh;
+  opacity: 1;
+  margin-bottom: 3vh;
+  text-align: center;
+}
+
+.Amigos {
+  color: rgba(255, 255, 255, 1);
+  font-family: Sora;
+  font-weight: Regular;
+  font-size: 3vh;
+  opacity: 1;
+  margin-bottom: 3vh;
+  text-align: center;
+}
+
+.RecuadroA {
+  width: 20vw;
+  height: 7vh;
+  background: rgba(57, 57, 57, 1);
+  opacity: 1;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  overflow: hidden;
+}
+
+.NumeroA {
+  color: rgba(255, 255, 255, 1);
+  font-family: Sora;
+  font-weight: Regular;
+  font-size: 3vh;
+  opacity: 1;
+  text-align: center;
+}
+
+.Grupos {
+  color: rgba(255, 255, 255, 1);
+  font-family: Sora;
+  font-weight: Regular;
+  font-size: 3vh;
+  opacity: 1;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.ImagendeUsuarioP {
+  width: 80px;
+  height: 80px;
+  background: rgba(196, 196, 196, 1);
+  opacity: 1;
+  position: absolute;
+  top: 21px;
+  left: 20px;
+  border-radius: 50%;
+}
+
+.Contenido {
+  width: 550px;
+  height: 777px;
+  background: url("../images/v95_103.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 129px;
+  left: 32px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  overflow: hidden;
+}
+
+.UsernameP {
+  width: 224px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 35px;
+  left: 117px;
+  font-family: Sora;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+
+.formulario {
+  height: 80%;
+  width: 27%;
+  position: absolute;
+  top: 20%;
+  background: rgb(28, 28, 28, 1);
+  padding: 35px;
+  margin: 50%;
+  margin-top: -8%;
+  border-radius: 4px;
+  font-family: 'calibri';
+  text-align: center;
+  color: white;
+}
+
+.formulario p {
+  font-size: 5vh;
+  margin-bottom: 16%;
+  text-align: center;
+  cursor: default;
+}
+
+.controls {
+  width: 100%;
+  height: 6.010309278350515vh;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 18%;
+  border: 1px solid #0000;
+  font-family: 'calibri';
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  border-radius: 60px;
+}
+
+.formulario .botons {
+  background-color: rgba(255, 255, 255, 0.38999998569488525);
+  border-radius: 60px;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  position: relative;
+  height: 10.855670103092784vh;
+  width: 17.509313464608834vw;
+  font-size: 4vh;
+  cursor: pointer;
+}
+
+input::placeholder {
+  color: black;
+  font-size: 3.5vh;
+  font-style: normal;
+  text-align: center;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  overflow: hidden;
+  
+}
+
+.icon {
+  margin: 5%;
+}
+
+.icono1 {
+  color: rgb(143, 143, 143);
+  transition: 0.5s;
+  position: relative;
+  left: 28%;
+  font-size: 3.5vh;
+  opacity: 1;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+.icono1:hover {
+  color: rgb(255, 255, 255);
+}
+
+.icono2 {
+  color: rgb(143, 143, 143);
+  position: relative;
+  left: 55%;
+  transition: 0.5s;
+  font-family: Sora;
+  font-weight: Regular;
+  font-size: 3.5vh;
+  opacity: 1;
+  cursor: pointer;
+  text-align: center;
+}
+
+.icono2:hover {
+  color: rgb(255, 255, 255);
+}
+
+.icono3 {
+  color: rgb(143, 143, 143);
+  position: relative;
+  left: 90%;
+  transition: 0.5s;
+  font-family: Sora;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  cursor: pointer;
+  text-align: center;
+}
+
+.icono3:hover {
+  color: rgb(255, 255, 255);
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.formulario_p {
+  width: 77vw;
+  height: 100vh;
+  margin-right: auto;
+  position: absolute;
+  left: 23vw;
+ 
+}

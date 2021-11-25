@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=5" />
+  <title>Configuracion de perfil</title>
+  <meta name="description" content="AGM Description">
+  <meta property="og:title" content="AGM">
+  <meta property="og:description" content="AGM Description">
+  <meta name="generator" content="Quest">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sora:400%22%3E
+    <link href=" ./css/main.css" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  <script src="https://kit.fontawesome.com/a16c3b89d3.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <!--Aqui esta la parte para mostrar grupos y la parte superior aparentemente-->
+    <div class="perfil_p flex">
+      <!--Letras y contenido del perfil-->
+      <div class="ImagenPerfil">
+        <input type="file" class="my_file">
+      </div>
+      <div class="flex">
+        <div class="Icons flex">
+          <div class="icon">
+            <span class="Username">Username</span>
+            <span class="icono1">
+              <i class="fas fa-eye-slash"></i>
+            </span>
+          </div>
+          <div class="icon">
+            <span class="Username1">Username1</span>
+            <i class="icono2 fas fa-eye-slash"></i>
+          </div>
+          <div class="icon">
+            <span class="Amigos">Amigos</span>
+            <i class="icono3 fas fa-eye-slash"></i>
+          </div>
+          <div class="RecuadroA flex">
+            <span class="NumeroA">605</span>
+          </div>
+          <span class="Grupos">Grupos</span>
+
+          
+        </div>
+      </div>
+    </div>
+  <div class="formulario_p flex">
+    <section class="formulario flex">
+      <form name="editar" onsubmit="return validarFormulario();" autocomplete="off">
+        <p>Editar</p>
+        <input class="controls" type="text" name="name1" id="name1" placeholder="Nombre"
+          onkeypress="return validar(event);">
+        <input class="controls" type="text" name="surname1" id="surname1" placeholder="Apellido"
+          onkeypress="return validar(event);">
+        <input class="controls" type="password" name="password1" id="password1" placeholder="Contrasenia">
+        <input class="botons" type="submit" value="Guardar">
+      </form>
+    </section>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
